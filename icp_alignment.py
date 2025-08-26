@@ -164,4 +164,5 @@ for trk_path in INPUT_TRKS:
 
     vtk_out = trk_path.replace(".trk", ".vtk")
     save_vtk_streamlines(compressed, vtk_out, to_lps=False, binary=True)
+
     print("saved:", vtk_out)
